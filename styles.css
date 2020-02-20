@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    font-size: 16px;
+    color: #444352;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+::selection {
+    background: #007BFF;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 100rem;
+    background-color: #ffffff;
+    padding: 130px 50px 0 100px;
+}
+
+
+/* 
+header 
+*/
+
+.header {
+    max-width: 100%;
+    height: 40em;
+    margin: 0px auto;
+}
+
+.header h1 {
+    padding: 0 0 70px 0;
+    font-size: 2.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+
+.name {
+    font-weight: 900;
+}
+
+.emoji_spaceship:before {
+    content: "🛸";
+    font-size: 1.4em;
+}
+
+.header p {
+    font-size: 2.3rem;
+    font-weight: 400;
+    max-width: 710px;
+    line-height: 3.5rem;
+    letter-spacing: .1rem;
+}
+
+.header-email a {
+    text-decoration: none;
+    color: #444352;
+}
+
+.header-email a:hover {
+    color: #F8F8FF;
+}
+
+.hand_pointer:before {
+    content: "👉";
+    font-size: 1.6rem;
+    padding: 0 4px;
+}
+
+.header h3 {
+    padding-top: 50px;
+    letter-spacing: .1rem;
+}
+
+.underline--magical {
+    background-image: linear-gradient(120deg, #007BFF 0%, #007BFF 100%);
+    background-repeat: no-repeat;
+    background-size: 100% .2em;
+    background-position: 0 100%;
+    transition: background-size .11s ease-out;
+    display: inline-block;
+    padding: 3px;
+}
+
+.underline--magical:hover {
+    background-size: 100% 88%;
+}
+
+
+/* 
+misc 
+*/
+
+.sec-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.sec-title {
+    background-color: darksalmon;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: #007BFF;
+    /* margin-right: 60px; */
+    width: 200px;
+    /* changed from align-right to center */
+    text-align: center;
+}
+
+.content-box {
+    width: 650px;
+}
+
+
+/* 
+background 
+*/
+
+.bg {
+    background-color: darkslateblue;
+}
+
+.bg-content {
+    background-color: darkseagreen;
+}
+
+.bg-content p {
+    font-weight: 300;
+    letter-spacing: .01rem;
+    font-family: 'Lato', sans-serif;
+    padding: 0 0 15px 0;
+}
+
+
+/* 
+skills 
+*/
+
+.skills {
+    background-color: cornflowerblue;
+}
+
+.skills-content {
+    background-color: cornsilk;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 3.5em;
+}
+
+.skills h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
+
+.skills-box ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* 
+experience
+*/
+
+.exp {
+    background-color: skyblue;
+}
+
+.exp-content {
+    background-color: wheat;
+}
+
+.exp-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.exp-info {
+    background-color: turquoise;
+    width: 50%;
+}
+
+.exp-info h3 {
+    font-size: 1rem;
+    letter-spacing: .06rem;
+}
+
+.exp-info h4 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.exp-time h3 {
+    background-color: tomato;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+/* 
+projects
+*/
+
+.pro {
+    background-color: steelblue;
+}
+
+.pro-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 130%;
+    height: 270px;
+    margin-bottom: 5em;
+}
+
+.pro-cards:last-child {
+    margin-bottom: 0;
+}
+
+.pro-img {
+    grid-area: 1 / 1 / 4 / 4;
+}
+
+.pro-desc {
+    grid-area: 1 / 4 / 4 / 6;
+}
+
+.pro-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+}
+
+.pro-desc {
+    padding: 10px 125px 20px 25px;
+}
+
+.pro-desc h1 {
+    font-size: 1rem;
+}
+
+.pro-desc p {
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
