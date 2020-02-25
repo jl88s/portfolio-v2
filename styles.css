@@ -49,7 +49,11 @@ header
     font-weight: 900;
 }
 
-.emoji_spaceship:before {
+.emoji-spaceship {
+    display: inline-block;
+}
+
+.emoji-spaceship:before {
     content: "🛸";
     font-size: 1.4em;
 }
@@ -71,7 +75,7 @@ header
     color: #F8F8FF;
 }
 
-.hand_pointer:before {
+.hand-pointer:before {
     content: "👉";
     font-size: 1.6rem;
     padding: 0 4px;
@@ -108,15 +112,14 @@ misc
 }
 
 .sec-title {
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .15rem;
     color: #007BFF;
-    /* margin-right: 60px; */
+    margin-right: 60px;
     width: 200px;
-    /* changed from align-right to center */
-    text-align: center;
+    text-align: right;
 }
 
 .content-box {
@@ -129,11 +132,11 @@ background
 */
 
 .bg {
-    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
 }
 
 .bg-content {
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
 }
 
 .bg-content p {
@@ -149,11 +152,11 @@ skills
 */
 
 .skills {
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 }
 
 .skills-content {
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 3.5em;
@@ -177,21 +180,21 @@ experience
 */
 
 .exp {
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }
 
 .exp-content {
-    background-color: wheat;
+    /* background-color: wheat; */
 }
 
 .exp-boxes {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 
 .exp-info {
-    background-color: turquoise;
+    /* background-color: turquoise; */
     width: 50%;
 }
 
@@ -207,7 +210,7 @@ experience
 }
 
 .exp-time h3 {
-    background-color: tomato;
+    /* background-color: tomato; */
     font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 0.1rem;
@@ -220,7 +223,7 @@ projects
 */
 
 .pro {
-    background-color: steelblue;
+    /* background-color: steelblue; */
 }
 
 .pro-cards {
@@ -264,4 +267,60 @@ projects
 .pro-desc p {
     font-size: 0.8rem;
     padding-top: 10px;
+}
+
+
+/* 
+footer
+*/
+
+.foot {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10em;
+}
+
+.foot-8bit {
+    display: inline-block;
+    padding: 0 1px;
+}
+
+.foot-8bit:before {
+    content: "👾";
+    font-size: 1.5em;
+    position: relative;
+    top: 3px;
+}
+
+.foot-date {
+    font-size: 1rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+.foot-copyright {
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: .05rem;
+    color: #444352;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.foot-links {
+    /* background-color: burlywood; */
+    margin-right: 40px;
+    display: flex;
+}
+
+.foot-links a {
+    margin: 15px;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: #007BFF;
+    font-family: 'Questrial', sans-serif;
 }
