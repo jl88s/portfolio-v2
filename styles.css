@@ -17,31 +17,27 @@ html {
 
 ::selection {
     background: #007BFF;
-    color: #fff;
+    color: #F8F8FF;
 }
 
-.container {
-    width: 100%;
-    height: 100rem;
-    background-color: #ffffff;
-    padding: 130px 50px 0 100px;
+#container {
+    max-width: 1240px;
+    margin: 0 auto;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-
-/* 
-header 
-*/
-
+/* HEADER */
 .header {
-    max-width: 100%;
     height: 40em;
-    margin: 0px auto;
-}
+    margin: 10em 5em 0;
 
+}
 .header h1 {
     padding: 0 0 70px 0;
-    font-size: 2.6rem;
-    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.05rem;
     font-weight: 300;
 }
 
@@ -50,12 +46,14 @@ header
 }
 
 .emoji-spaceship {
-    display: inline-block;
+    display: inline-block;      
+    position: relative;
 }
 
-.emoji-spaceship:before {
+.emoji-spaceship:after {
     content: "🛸";
-    font-size: 1.4em;
+    font-size: 1.2em;
+    padding-left: 5px;
 }
 
 .header p {
@@ -63,12 +61,15 @@ header
     font-weight: 400;
     max-width: 710px;
     line-height: 3.5rem;
-    letter-spacing: .1rem;
+    letter-spacing: 0.01rem;
 }
 
 .header-email a {
     text-decoration: none;
     color: #444352;
+    font-size: 1.5rem;
+    letter-spacing: 0.06em;
+    font-weight: 300;
 }
 
 .header-email a:hover {
@@ -89,22 +90,25 @@ header
 .underline--magical {
     background-image: linear-gradient(120deg, #007BFF 0%, #007BFF 100%);
     background-repeat: no-repeat;
-    background-size: 100% .2em;
+    background-size: 100% .1em;
     background-position: 0 100%;
-    transition: background-size .11s ease-out;
+    transition: background-size .15s ease-in-out;
     display: inline-block;
-    padding: 3px;
+    padding: 0 5px;
+
 }
 
 .underline--magical:hover {
-    background-size: 100% 88%;
+    background-size: 100% 95%;
+    cursor: pointer;
+
 }
 
+.underline--magical:hover a {
+    color: #F8F8FF;
+  }
 
-/* 
-misc 
-*/
-
+/* MISC */
 .sec-container {
     display: flex;
     justify-content: center;
@@ -112,7 +116,6 @@ misc
 }
 
 .sec-title {
-    /* background-color: darksalmon; */
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -126,19 +129,7 @@ misc
     width: 650px;
 }
 
-
-/* 
-background 
-*/
-
-.bg {
-    /* background-color: darkslateblue; */
-}
-
-.bg-content {
-    /* background-color: darkseagreen; */
-}
-
+/* BACKGROUND */
 .bg-content p {
     font-weight: 300;
     letter-spacing: .01rem;
@@ -146,17 +137,8 @@ background
     padding: 0 0 15px 0;
 }
 
-
-/* 
-skills 
-*/
-
-.skills {
-    /* background-color: cornflowerblue; */
-}
-
+/* SKILLS */
 .skills-content {
-    /* background-color: cornsilk; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 3.5em;
@@ -174,19 +156,7 @@ skills
     font-family: 'Lato', sans-serif;
 }
 
-
-/* 
-experience
-*/
-
-.exp {
-    /* background-color: skyblue; */
-}
-
-.exp-content {
-    /* background-color: wheat; */
-}
-
+/* experience */
 .exp-boxes {
     display: flex;
     justify-content: space-between;
@@ -194,7 +164,6 @@ experience
 }
 
 .exp-info {
-    /* background-color: turquoise; */
     width: 50%;
 }
 
@@ -210,22 +179,14 @@ experience
 }
 
 .exp-time h3 {
-    /* background-color: tomato; */
     font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 0.1rem;
     font-family: 'Inconsolata', monospace;
+    text-align: right;
 }
 
-
-/* 
-projects
-*/
-
-.pro {
-    /* background-color: steelblue; */
-}
-
+/* PROJECTS */
 .pro-cards {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -265,52 +226,35 @@ projects
 }
 
 .pro-desc p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding-top: 10px;
+    width: 110%;
 }
 
-
-/* 
-footer
-*/
-
+/* FOOTER */
 .foot {
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-between;
-    margin-top: 10em;
-}
-
-.foot-8bit {
-    display: inline-block;
-    padding: 0 1px;
-}
-
-.foot-8bit:before {
-    content: "👾";
-    font-size: 1.5em;
-    position: relative;
-    top: 3px;
+    align-items: center;
+    margin: 12em 3em 0;
+    padding: 50px 0 50px 0;
 }
 
 .foot-date {
-    font-size: 1rem;
     font-family: 'Inconsolata', monospace;
 }
 
 .foot-copyright {
-    margin-left: 20px;
     font-size: 1rem;
-    font-weight: 900;
     letter-spacing: .05rem;
-    color: #444352;
+    color: #007BFF;
     font-family: 'Questrial', sans-serif;
     text-align: center;
+    border: 1.5px solid #007BFF;
+    padding: 0.3em 1.3em;
 }
 
 .foot-links {
-    /* background-color: burlywood; */
-    margin-right: 40px;
     display: flex;
 }
 
