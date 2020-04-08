@@ -118,7 +118,8 @@
     }
 
     .header {
-        margin: 10em 3.2em 0;
+        margin: 5em 3.2em 0;
+        height: 38em;
     }
 
     .header h1 {
@@ -196,7 +197,7 @@
     }
 
     .foot {
-        margin: 5em auto 0;
+        margin: 0 auto ;
     }
 
     .foot-links {
@@ -243,3 +244,4 @@
     .bg-content p {
         width: 105%;
     }
+}
