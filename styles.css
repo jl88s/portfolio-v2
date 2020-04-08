@@ -42,7 +42,7 @@ html {
 }
 
 .name {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 .emoji-spaceship {
@@ -123,6 +123,7 @@ html {
     margin-right: 60px;
     width: 200px;
     text-align: right;
+    font-weight: 400;
 }
 
 .content-box {
@@ -159,6 +160,7 @@ html {
 
 .skills-box h3 {
     font-size: 1rem;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
 }
@@ -176,6 +178,7 @@ html {
 
 .exp-info h3 {
     font-size: 1rem;
+    font-weight: 400;
     letter-spacing: .05rem;
     text-transform: uppercase
 }
@@ -231,6 +234,7 @@ html {
 
 .pro-desc h1 {
     font-size: 1rem;
+    font-weight: 400;
     letter-spacing: 0.01rem;
     text-transform: uppercase;
 }
@@ -262,7 +266,7 @@ html {
     color: #007BFF;
     font-family: 'Questrial', sans-serif;
     text-align: center;
-    border: 1.5px solid #007BFF;
+    border: 1px solid #007BFF;
     padding: 0.3em 1.3em;
 }
 
@@ -273,9 +277,9 @@ html {
 .foot-links a {
     margin: 10px;
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: 900;
+    font-size: 0.9rem;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.11rem;
+    letter-spacing: 0.15rem;
     color: #007BFF;
     font-family: 'Lato', sans-serif;}
