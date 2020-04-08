@@ -3,12 +3,7 @@
         width: 90%;
     }
 
-    .header h1 {
-        font-size: 2.3rem;
-    }
-
     .header p {
-        font-size: 2.1rem;
         max-width: 610px;
     }
 }
@@ -17,7 +12,7 @@
     .sec-title {
         position: relative;
         bottom: 3.5em;
-        left: 6.2em;
+        left: 6.1em;
         margin-right: 0;
         width: 100px;
         text-align: left;
@@ -34,7 +29,6 @@
 
     .foot-copyright {
         order: 2;
-        font-size: 0.9rem;
         margin-top: 3.5em;
     }
 
@@ -61,54 +55,35 @@
 @media only screen and (max-width: 820px) {
     .header h1 {
         padding: 0 0 70px 0;
-        font-size: 2.1rem;
         letter-spacing: 0.05rem;
         font-weight: 300;
     }
 
-    .emoji-spaceship:after {
-        content: "🛸";
-        font-size: 1.2em;
-        padding-left: 5px;
-    }
-
     .header p {
-        font-size: 1.7rem;
         max-width: 570px;
-    }
-
-    .header-email a {
-        font-size: 1.3rem;
-    }
-
-    .exp-time h3 {
-        font-size: 0.8rem;
-    }
-     
-    .skills-box ul li, 
-    .exp-info h4, 
-    .pro-desc p, 
-    .foot-links a {
-        font-size: 0.9em;
     }
 }
 
 @media only screen and (max-width: 730px) {
-    .sec-title {
-        left: 4.5em;
-    }
-
     .skills-content {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 3.5em;
+        width: 80%;
     }
-
 }
 
 @media only screen and (max-width: 650px) {
+    .header {
+        height: 45em;
+    }
+
     .foot {
         flex-wrap: wrap;
+    }
+
+    .foot-links a {
+        margin: 0.5em;
     }
 }
 
@@ -118,29 +93,7 @@
     }
 
     .header {
-        margin: 5em 3.2em 0;
-        height: 38em;
-    }
-
-    .header h1 {
-        font-size: 2rem;
-    }
-
-    .emoji-spaceship:after {
-        font-size: 1.2em;
-    }
-
-    .header p {
-        font-size: 1.7rem;
-        line-height: 2.6rem;
-    }
-
-    .header h3 {
-        font-size: 1rem;
-    }
-
-    .header-email a {
-        font-size: 1.2rem;
+        height: 48em;
     }
 
     .skills-content {
@@ -151,7 +104,7 @@
     }
 
     .foot {
-        margin: 12em auto 0;
+        margin: 5em auto 0;
     }
 
     .foot-links {
@@ -161,31 +114,38 @@
     }
     
     .foot-links a {
-        margin: 15px;
-        font-size: .8rem;
+        margin: 13px;
     }
 
     .foot-copyright {
         margin-left: 0;
     }
-
-    .foot-copyright {
-        font-size: 0.7rem;
-    }
 }
 
 @media only screen and (max-width: 414px) {
+    .sec-container {
+        width: 100%;
+        margin: -3em;
+    }
+    .header {
+        margin: 6em 3em 0;
+        height: 40em;
+    }
     .header h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .emoji-spaceship:after {
-        font-size: 1.5rem;
+        font-size: 2.3rem;
     }
 
     .header p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 2.5rem;
+    }
+
+    .header-email a {
+        font-size: 1.4rem;
     }
 
     .bg-content p {
@@ -208,37 +168,14 @@
     }
 
     .foot-links a {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 375px) {
-    .bg-content p, 
-    .sec-title, 
-    .skills h2, 
-    .exp-info h3, 
-    .skills-box ul li,
-    .exp-time,
-    .pro-desc h1, 
-    .foot-copyright, 
-    .foot-links a {
-        font-size: 0.8rem;
-    }
-
-    .header h1 {
-        font-size: 1.1rem;
-    }
-
-    .emoji-spaceship:after, .hand-pointer:before {
-        font-size: 1.3rem;
-    }
-
-    .header p, .header-email a {
-        font-size: 1rem;
-    }
-
-    .header h3 {
-        font-size: 0.9rem;
+    .header {
+        margin: 6em 2em 0;
+        height: 45em;
     }
 
     .bg-content p {
