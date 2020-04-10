@@ -1,7 +1,4 @@
-/* 
-SPACESHIP
- */
-
+/* SPACESHIP */
 .slide-in-elliptic-left-bck {
     -webkit-animation: slide-in-elliptic-left-bck 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-elliptic-left-bck 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -41,10 +38,7 @@ SPACESHIP
     }
 }
 
-/* 
-SPACESHIP FLICKR
-*/
-
+/* SPACESHIP WOBBLE */
 @-webkit-keyframes wobble-hor-bottom {
     0%,
     100% {
@@ -109,11 +103,7 @@ SPACESHIP FLICKR
 	        animation: wobble-hor-bottom 0.8s 1s both;
 }
 
-
-/* 
-EMAIL 
-*/
-
+/* EMAIL */
 .puff-in-ver {
     -webkit-animation: puff-in-ver 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1.1s both;
     animation: puff-in-ver 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1s both;
@@ -153,11 +143,7 @@ EMAIL
     }
 }
 
-
-/* 
-underline for footer links 
-*/
-
+/* UNDERLINE FOR FOOTER LINKS */
 .foot-links a {
     position: relative;
     color: #007BFF;

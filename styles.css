@@ -42,11 +42,11 @@ html {
 }
 
 .name {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .emoji-spaceship {
-    display: inline-block;      
+    display: inline-block;
     position: relative;
 }
 
@@ -95,7 +95,6 @@ html {
     transition: background-size .25s ease-in-out;
     display: inline-block;
     padding: 5px 5px;
-
 }
 
 .underline--magical:hover {
@@ -160,16 +159,16 @@ html {
 
 .skills-box h3 {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.03rem;
 }
 
 /* experience */
 .exp-boxes {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 13px;
+    margin-bottom: 1em;
 }
 
 .exp-info {
@@ -178,8 +177,8 @@ html {
 
 .exp-info h3 {
     font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: .05rem;
+    font-weight: 400;
+    letter-spacing: .03rem;
     text-transform: uppercase
 }
 
@@ -206,7 +205,7 @@ html {
     grid-row-gap: 0px;
     width: 130%;
     height: 270px;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
 }
 
 .pro-cards:last-child {
@@ -232,7 +231,7 @@ html {
 
 .pro-desc h1 {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.01rem;
     text-transform: uppercase;
 }
@@ -260,7 +259,7 @@ html {
 
 .foot-copyright {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.01rem;
     color: #007BFF;
     text-align: center;
