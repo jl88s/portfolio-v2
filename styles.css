@@ -28,21 +28,37 @@ html {
     overflow-y: scroll;
 }
 
+/* DON'T REPEAT YOURSELF! */
+.header h1,
+.header-email a,
+.header h3,
+.bg-content p,
+.exp-info h4,
+.pro-desc p {
+    font-weight: 300;
+}
+
+.name,
+.sec-title,
+.skills-box h3,
+.exp-info h3,
+.exp-time h3,
+.pro-desc h1,
+.foot-copyright,
+.foot-links a {
+    font-weight: 400;
+}
+
 /* HEADER */
 .header {
     height: 40em;
     margin: 10em 5em 0;
-
 }
+
 .header h1 {
     padding: 0 0 70px 0;
     font-size: 2.5rem;
     letter-spacing: 0.05rem;
-    font-weight: 300;
-}
-
-.name {
-    font-weight: 400;
 }
 
 .emoji-spaceship {
@@ -68,7 +84,6 @@ html {
     color: #444352;
     font-size: 1.5rem;
     letter-spacing: 0.01em;
-    font-weight: 300;
 }
 
 .header-email a:hover {
@@ -83,8 +98,7 @@ html {
 
 .header h3 {
     padding-top: 50px;
-    letter-spacing: .05rem;
-    font-weight: 300;
+    letter-spacing: 0.05rem;
 }
 
 .underline--magical {
@@ -100,7 +114,6 @@ html {
 .underline--magical:hover {
     background-size: 100% 95%;
     cursor: pointer;
-
 }
 
 .underline--magical:hover a {
@@ -122,7 +135,6 @@ html {
     margin-right: 60px;
     width: 200px;
     text-align: right;
-    font-weight: 400;
 }
 
 .content-box {
@@ -132,7 +144,6 @@ html {
 /* BACKGROUND */
 .bg-content p {
     font-size: 1.1rem;
-    font-weight: 300;
     letter-spacing: .01rem;
     font-family: 'Lato', sans-serif;
     padding: 0 0 15px 0;
@@ -147,19 +158,15 @@ html {
 
 .skills h2 {
     text-transform: uppercase;
-    font-size: 1rem;
     letter-spacing: .1rem;
 }
 
 .skills-box ul li {
     list-style-type: none;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
 }
 
 .skills-box h3 {
     font-size: 1rem;
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.03rem;
 }
@@ -177,20 +184,12 @@ html {
 
 .exp-info h3 {
     font-size: 1rem;
-    font-weight: 400;
     letter-spacing: .03rem;
     text-transform: uppercase
 }
 
-.exp-info h4 {
-    font-size: 1rem;
-    font-weight: 300;
-    font-family: 'Lato', sans-serif;
-}
-
 .exp-time h3 {
     font-size: 0.9rem;
-    font-weight: 300;
     letter-spacing: 0.01rem;
     font-family: 'Inconsolata', monospace;
     text-align: right;
@@ -231,17 +230,13 @@ html {
 
 .pro-desc h1 {
     font-size: 1rem;
-    font-weight: 400;
     letter-spacing: 0.01rem;
     text-transform: uppercase;
 }
 
 .pro-desc p {
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
     padding-top: 5px;
     width: 110%;
-    font-weight: 300;
 }
 
 /* FOOTER */
@@ -259,7 +254,6 @@ html {
 
 .foot-copyright {
     font-size: 1rem;
-    font-weight: 400;
     letter-spacing: 0.01rem;
     color: #007BFF;
     text-align: center;
@@ -276,9 +270,7 @@ html {
     margin: 10px;
     text-decoration: none;
     font-size: 0.9rem;
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     color: #007BFF;
-    font-family: 'Lato', sans-serif;
 }
