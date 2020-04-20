@@ -153,7 +153,7 @@ html {
 .skills-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-gap: 3.5em;
+    grid-gap: 3.3em;
 }
 
 .skills h2 {
