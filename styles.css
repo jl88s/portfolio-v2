@@ -58,7 +58,6 @@ html {
 .header h1 {
     padding: 0 0 70px 0;
     font-size: 2.5rem;
-    letter-spacing: 0.05rem;
 }
 
 .emoji-spaceship {
@@ -76,7 +75,6 @@ html {
     font-size: 2.3rem;
     max-width: 710px;
     line-height: 3.5rem;
-    letter-spacing: 0.01rem;
 }
 
 .header-email a {
