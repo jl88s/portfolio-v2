@@ -226,9 +226,9 @@
         width: 102%;
     }
 
-    /* .foot-links {
-        margin-left: 1.6em;
-    } */
+    .foot-links {
+       margin: 0 auto;
+    }
 }
 
 
