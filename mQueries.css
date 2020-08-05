@@ -154,8 +154,8 @@
     }
 
     .sec-container {
-        width: 111%;
-        margin: -4.3em;
+        width: 105%;
+        margin: -3.7em;
     }
 
     .header {
@@ -172,7 +172,7 @@
     }
 
     .header p {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         line-height: 2.5rem;
     }
 
@@ -202,10 +202,6 @@
     .foot-links a {
         font-size: 1rem;
     }
-
-    .foot-copyright {
-        margin-left: -2em;
-    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -218,7 +214,7 @@
     }
 
     .sec-container {
-        width: 112%;
+        width: 100%;
     }
 
     .header {
@@ -232,10 +228,6 @@
 
     .foot-links {
         margin-left: 1.6em;
-    }
-    
-    .foot-copyright {
-        margin-left: -2.5em;
     }
 }
 
