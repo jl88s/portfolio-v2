@@ -8,9 +8,11 @@
 body,
 html {
     width: 100%;
-    font-size: 16px;
+    font-size: 1rem;
     color: #444352;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Heebo', sans-serif;
+
     font-weight: 300;
     line-height: 1.5;
 }
@@ -37,7 +39,6 @@ html {
     font-weight: 300;
 }
 
-.name,
 .sec-title,
 .skills-box h3,
 .exp-info h3,
@@ -59,27 +60,29 @@ html {
     font-size: 2.5rem;
 }
 
-.emoji-me {
+.emoji-wave {
     display: inline-block;
     position: relative;
 }
 
-.emoji-me:after {
-    content: "👨‍💻";
-    font-size: 1.2em;
+.emoji-wave:after {
+    content: "👋‍";
     padding-left: 5px;
 }
 
+.name {
+    font-weight: 600;
+}
+
 .header p {
-    font-size: 2.3rem;
-    max-width: 710px;
-    line-height: 3.5rem;
+    font-size: 2.5rem;
+    max-width: 750px;
 }
 
 .header-email a {
     text-decoration: none;
     color: #444352;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 0.01em;
 }
 
@@ -95,7 +98,6 @@ html {
 
 .header h3 {
     padding-top: 50px;
-    letter-spacing: 0.05rem;
 }
 
 .underline--magical {
